@@ -24,7 +24,6 @@ export default layouts.createLayoutsWidget('featured-post', {
   html(attrs, state) {
     let result = [h('h3.featured-post-title', settings.featured_post_title)];
     if (state.featuredPost) {
-      console.log(state.featuredPost.cooked);
       result.push(
         new RawHtml({ html: `<span>${state.featuredPost.cooked}</span>` }) 
       );
