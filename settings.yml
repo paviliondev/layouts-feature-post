@@ -1,0 +1,9 @@
+featured_post_title:
+  default: "Featured Post"
+  description:
+    en: "Title to display above featured post"
+featured_post_tags:
+  type: list
+  default: ""
+  description:
+    en: "Show featured post for topics with these tags. Leave blank to show for all topics"
